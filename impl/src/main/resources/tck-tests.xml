@@ -52,6 +52,12 @@
                 </methods>
             </class>
 
+            <!-- CDITCK-621 -->
+            <class name="org.jboss.cdi.tck.tests.lookup.injection.non.contextual.WebServiceInjectionIntoNonContextualComponentTest">
+                <methods>
+                    <exclude name=".*"/>
+                </methods>
+            </class>
         </classes>
 
     </test>
